@@ -1,0 +1,6 @@
+framework module Pods_RumbleStrip_Tests {
+  umbrella header "Pods-RumbleStrip_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

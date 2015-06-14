@@ -10,19 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "RumbleStrip"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RumbleStrip."
+  s.summary          = "A simple feedback library for iOS apps."
   s.description      = <<-DESC
-                       An optional longer description of RumbleStrip
+                       # RumbleStrip
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A simple feedback library for iOS apps.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RumbleStrip"
+  s.homepage         = "https://github.com/davidrothera/RumbleStrip"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "David Rothera" => "david.rothera@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RumbleStrip.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/davidrothera/RumbleStrip.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/davidrothera'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -33,6 +32,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'AudioToolbox'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

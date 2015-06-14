@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		095EBE663758E8C44A315301 /* Pods-RumbleStrip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RumbleStrip_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RumbleStrip_Tests/Pods-RumbleStrip_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		101BAA15E4D5E795ACCD2205 /* RumbleStrip.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RumbleStrip.podspec; path = ../RumbleStrip.podspec; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* RumbleStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = RumbleStrip.app; path = RumbleStrip_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* RumbleStrip_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RumbleStrip_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -51,7 +51,7 @@
 		6003F5A5195388D20070C39A /* rumbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rumbViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* rumbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rumbViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = RumbleStrip_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* RumbleStrip_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumbleStrip_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* RumbleStrip.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* RumbleStrip_Example.app */,
+				6003F5AE195388D20070C39A /* RumbleStrip_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 			);
 			name = RumbleStrip_Example;
 			productName = RumbleStrip;
-			productReference = 6003F58A195388D20070C39A /* RumbleStrip.app */;
+			productReference = 6003F58A195388D20070C39A /* RumbleStrip_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* RumbleStrip_Tests */ = {
@@ -234,7 +234,7 @@
 			);
 			name = RumbleStrip_Tests;
 			productName = RumbleStripTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* RumbleStrip_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

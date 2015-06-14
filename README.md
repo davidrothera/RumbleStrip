@@ -1,6 +1,6 @@
 # RumbleStrip
 
-[![CI Status](http://img.shields.io/travis/David Rothera/RumbleStrip.svg?style=flat)](https://travis-ci.org/David Rothera/RumbleStrip)
+[![CI Status](http://img.shields.io/travis/davidrothera/RumbleStrip.svg?style=flat)](https://travis-ci.org/davidrothera/RumbleStrip)
 [![Version](https://img.shields.io/cocoapods/v/RumbleStrip.svg?style=flat)](http://cocoapods.org/pods/RumbleStrip)
 [![License](https://img.shields.io/cocoapods/l/RumbleStrip.svg?style=flat)](http://cocoapods.org/pods/RumbleStrip)
 [![Platform](https://img.shields.io/cocoapods/p/RumbleStrip.svg?style=flat)](http://cocoapods.org/pods/RumbleStrip)

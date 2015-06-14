@@ -1,0 +1,6 @@
+framework module RumbleStrip {
+  umbrella header "Pods-RumbleStrip_Example-RumbleStrip-umbrella.h"
+
+  export *
+  module * { export * }
+}
