@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/RumbleStrip.svg?style=flat)](http://cocoapods.org/pods/RumbleStrip)
 [![Platform](https://img.shields.io/cocoapods/p/RumbleStrip.svg?style=flat)](http://cocoapods.org/pods/RumbleStrip)
 
+RumbleStrip is a lightweight feedback tool which allows your users to 'Rage Shake' to give feedback.
+
 ## Usage
 
 Once you have the pod installed, usage is very simple:
@@ -26,6 +28,12 @@ Once you have the pod installed, usage is very simple:
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+RumbleStrip doesn't have many requirements other than a couple of Apple provided libraries.
+
+* iOS8 or higher - this is to support Frameworks (for Swift)
+* MessageUI framework
+* Audiotoolbox framework
 
 ## Installation
 
