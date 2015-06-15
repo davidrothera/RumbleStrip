@@ -7,6 +7,22 @@
 
 ## Usage
 
+Once you have the pod installed, usage is very simple:
+
+1. Import RumbleStrip in your AppDelegate
+
+   ```obj-c
+   #import <RumbleStrip/RumbleStrip.h>
+   ```
+2. Enable RumbleStrip
+
+   ```obj-c
+   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+       [RumbleStrip enableRumble];
+       return YES;
+   }
+   ```
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements

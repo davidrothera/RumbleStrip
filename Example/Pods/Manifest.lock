@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RumbleStrip: 2a8a37f2eb2ef0883b02ec04e6e02502cf85821e
+  RumbleStrip: fedbe743ed1ce76dbed0414e175ac89fc316e94d
 
 COCOAPODS: 0.37.2

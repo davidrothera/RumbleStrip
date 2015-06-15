@@ -7,359 +7,369 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D4C05F34226EB75841D9767 /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA186B0B7A73F2B073F8456C /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E123DF7D53CCF99B115FF6A /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC14DCF0179E3C9B6EC82273 /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4EBE1BBDD93787437725FE /* Pods-RumbleStrip_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF06454D22D77999B289962F /* Pods-RumbleStrip_Example-dummy.m */; };
-		3E5D4A9597C0292855D68CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E58170F4AECC681336629 /* Foundation.framework */; };
-		4AC8258FB2CE08997F7A4BAF /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79290CFE28B54831BF0DAF7D /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m */; };
-		524668CD5DA7D707876A6824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E58170F4AECC681336629 /* Foundation.framework */; };
-		5381A099574B423CF5E5E447 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F4442175B4E721A1EC363C63 /* ReplaceMe.m */; };
-		6A94BE84AA665CFA671B37C5 /* Pods-RumbleStrip_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 470ED5963FB7DF456BEE8950 /* Pods-RumbleStrip_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DCACC6C1DB613EE82BF805C /* Pods-RumbleStrip_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E5EB36B6167DF44E6AB526 /* Pods-RumbleStrip_Tests-dummy.m */; };
-		7783DC29A16664312F491AFA /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798A7E2DC187115D6F3599B8 /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m */; };
-		94A0133042CC7CF0E3DB2AB7 /* Pods-RumbleStrip_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 234FABE387966CACB5C8F63B /* Pods-RumbleStrip_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98DF0F76E448B4DB7E239D4F /* RumbleStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F1652591803CBBA86F76973 /* RumbleStrip.bundle */; };
-		A005507C97673A1157FA3C47 /* RumbleStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 945F5C45D9B42ECAFD4EDB99 /* RumbleStrip.bundle */; };
-		A688478E815E579CDEF9946C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E58170F4AECC681336629 /* Foundation.framework */; };
-		D54BF5656213604FB3054F67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E58170F4AECC681336629 /* Foundation.framework */; };
-		E9C7D20CBDD854C234829235 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F4442175B4E721A1EC363C63 /* ReplaceMe.m */; };
+		0B4B330CE2C76E52C0FBD099 /* Pods-RumbleStrip_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4EE5F1FF20493BBF5F9864 /* Pods-RumbleStrip_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7539E7B69D12D5A385A0E4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED30C5E81605991D7B9D316 /* AudioToolbox.framework */; };
+		2881C03ED8F8B0DC0BE760AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D018F9E352639C71082309D5 /* UIKit.framework */; };
+		2BCDDE6ACD15E02B1A9D2E35 /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A64F5D4D7A0512A3B3E4D4 /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m */; };
+		33FD7944CA33F49EB721405A /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6638541FA3F84E79D2CDF33A /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37382FC3B87C8CC237A64954 /* Pods-RumbleStrip_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66464ACD0350224D1A43C8FD /* Pods-RumbleStrip_Example-dummy.m */; };
+		5397B0AA4B50AB1CBA50D0F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C945677B99965900D73A8A5 /* Foundation.framework */; };
+		54089B449DE45BCD7F54B278 /* RumbleStrip.h in Headers */ = {isa = PBXBuildFile; fileRef = 312EB13F90EC664D9750FCF7 /* RumbleStrip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5878BD3E23DB2731806ABD64 /* UIWindow+Rumble.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A723D7014FDC657CD2F9F1D /* UIWindow+Rumble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628F94AB49AAE88344159D26 /* RumbleStrip.h in Headers */ = {isa = PBXBuildFile; fileRef = 312EB13F90EC664D9750FCF7 /* RumbleStrip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		669CBEBA9E553B92FDCA2888 /* Pods-RumbleStrip_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 534F77E4AD1CC05FCBE46F30 /* Pods-RumbleStrip_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8627145C6EDD5C46F4F165C9 /* RumbleStrip.m in Sources */ = {isa = PBXBuildFile; fileRef = EE396675B682490E52006ED9 /* RumbleStrip.m */; };
+		94B1B31AC04412206A7E5BAF /* RumbleStrip.m in Sources */ = {isa = PBXBuildFile; fileRef = EE396675B682490E52006ED9 /* RumbleStrip.m */; };
+		9698632151C33929A7D60889 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D018F9E352639C71082309D5 /* UIKit.framework */; };
+		98A6AD5ED108682BA8C65EBE /* UIWindow+Rumble.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B373CEA023692F4E14C486A /* UIWindow+Rumble.m */; };
+		9A04A3C6E7DDECF1957814BF /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CDD36F7BB6152E3BB3D85D /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m */; };
+		A9039ABD94457B05EF5C810F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C945677B99965900D73A8A5 /* Foundation.framework */; };
+		B50AE0EA8D789764DE8DC864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C945677B99965900D73A8A5 /* Foundation.framework */; };
+		C24C406179B9811770849478 /* Pods-RumbleStrip_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC826A358DEBC454495EDF8E /* Pods-RumbleStrip_Tests-dummy.m */; };
+		CA232080DBB019086CA41F2F /* RumbleStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65257DE23E24BF2FF798CFE5 /* RumbleStrip.bundle */; };
+		D080590172F9195B369C0378 /* RumbleStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01562E598CD182B7E81B1690 /* RumbleStrip.bundle */; };
+		D2690B8F204EDAFEE847CA3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C945677B99965900D73A8A5 /* Foundation.framework */; };
+		DD49A96AAEB77E1226E6E664 /* UIWindow+Rumble.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A723D7014FDC657CD2F9F1D /* UIWindow+Rumble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDFF68AF32DEAE414243CC3F /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D109B9A01C6CA6DA41B216 /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA3937A898B255DC32A5931 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED30C5E81605991D7B9D316 /* AudioToolbox.framework */; };
+		FDC1D2A1288B6B0FAF9B1106 /* UIWindow+Rumble.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B373CEA023692F4E14C486A /* UIWindow+Rumble.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		47A0F549AAFF474AC5DC5DB0 /* PBXContainerItemProxy */ = {
+		096526EE2C39846BE8CEABA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 44EF1E76BA15B2FDFC9823A1 /* Project object */;
+			containerPortal = 4F3E24CE59EBC92710FBAE38 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B20BC47FB1A0E9BFABFE8856;
+			remoteGlobalIDString = 58BF61154197AA7FDC69577C;
+			remoteInfo = "Pods-RumbleStrip_Example-RumbleStrip";
+		};
+		D5EBE5C4C59E176845A85692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F3E24CE59EBC92710FBAE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E382E9DCDE583EBEAEACA153;
 			remoteInfo = "Pods-RumbleStrip_Tests-RumbleStrip";
 		};
-		6A2282DA377FFFE5BCB9761B /* PBXContainerItemProxy */ = {
+		E5DEF88222B29CE754B75F05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 44EF1E76BA15B2FDFC9823A1 /* Project object */;
+			containerPortal = 4F3E24CE59EBC92710FBAE38 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B8292E429E1F49D0BC11DF71;
+			remoteGlobalIDString = C3360716AF19BA2316DE8F94;
 			remoteInfo = "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip";
 		};
-		F737CE654F51DF6D504C060C /* PBXContainerItemProxy */ = {
+		E9837203BAF04A263A2A6E32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 44EF1E76BA15B2FDFC9823A1 /* Project object */;
+			containerPortal = 4F3E24CE59EBC92710FBAE38 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D83C7A4C7550C66344DACA5;
+			remoteGlobalIDString = 38F1E54CBA49624BC5B16B23;
 			remoteInfo = "Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip";
-		};
-		FCC8E39F39C26AFFD4DF96E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 44EF1E76BA15B2FDFC9823A1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7513AE00E3835B47FEEAF49;
-			remoteInfo = "Pods-RumbleStrip_Example-RumbleStrip";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09A016D5800A084A6FF9AE17 /* Pods_RumbleStrip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RumbleStrip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FB2A54DD5A51D989D17B6DD /* Pods-RumbleStrip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		19335259210E408CBEFB1A83 /* Pods-RumbleStrip_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Example-environment.h"; sourceTree = "<group>"; };
-		1F1652591803CBBA86F76973 /* RumbleStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumbleStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		232CB2570E8624FCE3B00A67 /* Pods-RumbleStrip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		234FABE387966CACB5C8F63B /* Pods-RumbleStrip_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3CEBE8F790518B5BE5DE7B90 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig"; sourceTree = "<group>"; };
-		447103306D0C7E72F4A87E6E /* Pods-RumbleStrip_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RumbleStrip_Example.modulemap"; sourceTree = "<group>"; };
-		470ED5963FB7DF456BEE8950 /* Pods-RumbleStrip_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Example-umbrella.h"; sourceTree = "<group>"; };
-		52E3E70449CA6DBDB14546DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5436306D02C49A147CC5E6CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5550A1EFA1B9BCC5DC46738D /* Pods-RumbleStrip_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RumbleStrip_Example-frameworks.sh"; sourceTree = "<group>"; };
-		55941B47AB386FE2CD96CFC8 /* Pods-RumbleStrip_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B11DF77721447518F157BC5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5C9835A03D5695303D213713 /* Pods-RumbleStrip_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RumbleStrip_Tests-resources.sh"; sourceTree = "<group>"; };
-		5CAB774AA24C1EAA410ACB4C /* Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch"; sourceTree = "<group>"; };
-		5D521A1457E64569A1FBD423 /* Pods-RumbleStrip_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RumbleStrip_Example-resources.sh"; sourceTree = "<group>"; };
-		5DE50D581C5C4FEF89868F1F /* Pods-RumbleStrip_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RumbleStrip_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		604448C1B9DF3FAE4041BFC8 /* Pods-RumbleStrip_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RumbleStrip_Tests.modulemap"; sourceTree = "<group>"; };
-		65C37ADE4B3E3C9DAC6E78FA /* Pods-RumbleStrip_Example-RumbleStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Example-RumbleStrip.xcconfig"; sourceTree = "<group>"; };
-		6C053DAF37BC68A9F3E21486 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		751CEF3E3B34135129E30770 /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig"; sourceTree = "<group>"; };
-		79290CFE28B54831BF0DAF7D /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RumbleStrip_Example-RumbleStrip-dummy.m"; sourceTree = "<group>"; };
-		798A7E2DC187115D6F3599B8 /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-RumbleStrip_Tests-RumbleStrip-dummy.m"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-dummy.m"; sourceTree = "<group>"; };
-		7B0650F8084F01F27F256021 /* Pods-RumbleStrip_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RumbleStrip_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7BEE507FEBF9DAD031078B3C /* RumbleStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RumbleStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88E5EB36B6167DF44E6AB526 /* Pods-RumbleStrip_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RumbleStrip_Tests-dummy.m"; sourceTree = "<group>"; };
-		945F5C45D9B42ECAFD4EDB99 /* RumbleStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumbleStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3B0BD9E067D549E1C6CF688 /* Pods-RumbleStrip_Tests-RumbleStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-RumbleStrip_Tests-RumbleStrip.modulemap"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip.modulemap"; sourceTree = "<group>"; };
-		A43E58170F4AECC681336629 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AB8BEE106D9A664A3486B469 /* Pods-RumbleStrip_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RumbleStrip_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AEADCE47836A0616520FAF17 /* Pods-RumbleStrip_Example-RumbleStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Example-RumbleStrip-prefix.pch"; sourceTree = "<group>"; };
-		B0D587CC994ECC1AA34F6A49 /* RumbleStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RumbleStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3AE96EA37202BEA1C65EFB5 /* Pods-RumbleStrip_Example-RumbleStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RumbleStrip_Example-RumbleStrip.modulemap"; sourceTree = "<group>"; };
-		BCE56B967EC3E1C889EDADF6 /* Pods-RumbleStrip_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RumbleStrip_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CCA7272D3C035F70E0B1A926 /* Pods_RumbleStrip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RumbleStrip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D064DB1332942F7CE572CC6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Info.plist"; sourceTree = "<group>"; };
-		DE7D73C114281F03B10814B9 /* Pods-RumbleStrip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E686B4CF223202F96906235C /* Pods-RumbleStrip_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Tests-environment.h"; sourceTree = "<group>"; };
-		EA186B0B7A73F2B073F8456C /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h"; sourceTree = "<group>"; };
-		EB042728E746D22DBE82699A /* Pods-RumbleStrip_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RumbleStrip_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC14DCF0179E3C9B6EC82273 /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Example-RumbleStrip-umbrella.h"; sourceTree = "<group>"; };
-		EF06454D22D77999B289962F /* Pods-RumbleStrip_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RumbleStrip_Example-dummy.m"; sourceTree = "<group>"; };
-		F1FBC4FEF14472B7FBFA30F4 /* Pods-RumbleStrip_Tests-RumbleStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RumbleStrip_Tests-RumbleStrip.xcconfig"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip.xcconfig"; sourceTree = "<group>"; };
-		F4442175B4E721A1EC363C63 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		01562E598CD182B7E81B1690 /* RumbleStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumbleStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CDD36F7BB6152E3BB3D85D /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RumbleStrip_Example-RumbleStrip-dummy.m"; sourceTree = "<group>"; };
+		0B373CEA023692F4E14C486A /* UIWindow+Rumble.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Rumble.m"; sourceTree = "<group>"; };
+		11BF9B5655C5A6B446833FB7 /* Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch"; sourceTree = "<group>"; };
+		15F4DD8BAAC9A27FD7ACDD50 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B4EE5F1FF20493BBF5F9864 /* Pods-RumbleStrip_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E267FDA8AF975C8F62DA3BD /* Pods-RumbleStrip_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RumbleStrip_Tests.modulemap"; sourceTree = "<group>"; };
+		24E5B39A16FC538974849C3A /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig"; sourceTree = "<group>"; };
+		312EB13F90EC664D9750FCF7 /* RumbleStrip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RumbleStrip.h; sourceTree = "<group>"; };
+		3574364DE390FB8E138884CA /* Pods-RumbleStrip_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RumbleStrip_Example.modulemap"; sourceTree = "<group>"; };
+		3A472DA8E8AE6C91D8E309FD /* RumbleStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RumbleStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF24C11337397456FEFFE38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Info.plist"; sourceTree = "<group>"; };
+		3CCB284165EA054D5E59D73F /* Pods_RumbleStrip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RumbleStrip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4093983F526FD1338E3F49E1 /* Pods-RumbleStrip_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Example-environment.h"; sourceTree = "<group>"; };
+		50332BBB60280D5756F588E4 /* RumbleStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RumbleStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A64F5D4D7A0512A3B3E4D4 /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-RumbleStrip_Tests-RumbleStrip-dummy.m"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-dummy.m"; sourceTree = "<group>"; };
+		5115A30F4DE0E88B317274C2 /* Pods-RumbleStrip_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Example.release.xcconfig"; sourceTree = "<group>"; };
+		534F77E4AD1CC05FCBE46F30 /* Pods-RumbleStrip_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Example-umbrella.h"; sourceTree = "<group>"; };
+		63C74B1CDD14E7EFF7D210FA /* Pods-RumbleStrip_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RumbleStrip_Tests-resources.sh"; sourceTree = "<group>"; };
+		65257DE23E24BF2FF798CFE5 /* RumbleStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumbleStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6531D341D2E5D59E0BAC808E /* Pods-RumbleStrip_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RumbleStrip_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6638541FA3F84E79D2CDF33A /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Example-RumbleStrip-umbrella.h"; sourceTree = "<group>"; };
+		66464ACD0350224D1A43C8FD /* Pods-RumbleStrip_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RumbleStrip_Example-dummy.m"; sourceTree = "<group>"; };
+		673BD533FD00ACF194C42206 /* Pods-RumbleStrip_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RumbleStrip_Example-resources.sh"; sourceTree = "<group>"; };
+		72B32B062F3850268F762E87 /* Pods-RumbleStrip_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RumbleStrip_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7525D573D7BAA5E320525DB9 /* Pods-RumbleStrip_Example-RumbleStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RumbleStrip_Example-RumbleStrip.modulemap"; sourceTree = "<group>"; };
+		7C2175C40EAD38D73C0DEBB2 /* Pods-RumbleStrip_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RumbleStrip_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C945677B99965900D73A8A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D12BFCBD4B77B5FE860C038 /* Pods-RumbleStrip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		80D109B9A01C6CA6DA41B216 /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h"; sourceTree = "<group>"; };
+		862FB11F75BAC41114D4B4A3 /* Pods-RumbleStrip_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RumbleStrip_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A723D7014FDC657CD2F9F1D /* UIWindow+Rumble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Rumble.h"; sourceTree = "<group>"; };
+		9ED30C5E81605991D7B9D316 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		A133B23887AE28522813A16D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B293B817A5A0D1C4DB258A37 /* Pods-RumbleStrip_Tests-RumbleStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RumbleStrip_Tests-RumbleStrip.xcconfig"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip.xcconfig"; sourceTree = "<group>"; };
+		C1F8AA691CF8B5F22EC5C07D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE755E995AB86820B4F0DC3 /* Pods-RumbleStrip_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RumbleStrip_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D018F9E352639C71082309D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0F16DBB0A3E58038161A6EE /* Pods-RumbleStrip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D22DB945A4DF3D93C40AD191 /* Pods-RumbleStrip_Example-RumbleStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Example-RumbleStrip-prefix.pch"; sourceTree = "<group>"; };
+		D55F4E195AA5F99F4EF09632 /* Pods_RumbleStrip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RumbleStrip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3C09D457FA145F40F3F2BB /* Pods-RumbleStrip_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RumbleStrip_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EBF7EC6E4F25AA156DA9AF38 /* Pods-RumbleStrip_Tests-RumbleStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-RumbleStrip_Tests-RumbleStrip.modulemap"; path = "../Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip.modulemap"; sourceTree = "<group>"; };
+		EE396675B682490E52006ED9 /* RumbleStrip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RumbleStrip.m; sourceTree = "<group>"; };
+		EED8FD6122650DADDB7807BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5522A2F0C19DF45CFA2B4E7 /* Pods-RumbleStrip_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RumbleStrip_Tests-environment.h"; sourceTree = "<group>"; };
+		F5E65D39416696BBA5292974 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig"; sourceTree = "<group>"; };
+		F67F430D4F1CCEDB213A1C45 /* Pods-RumbleStrip_Example-RumbleStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Example-RumbleStrip.xcconfig"; sourceTree = "<group>"; };
+		FBD349E89609EBFDD442B0E7 /* Pods-RumbleStrip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RumbleStrip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC826A358DEBC454495EDF8E /* Pods-RumbleStrip_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RumbleStrip_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31F6D32CD6220703E0329AFD /* Frameworks */ = {
+		3D44D81E4711602B3EC870BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2690B8F204EDAFEE847CA3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B238A9020F07B6E227B500 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BD374368F7484E84A4A44AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D54BF5656213604FB3054F67 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87D67EE72CEEDF90AE566EEC /* Frameworks */ = {
+		564FC006367AAF74F53C30E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A48414144B0FB2FEC30A04E /* Frameworks */ = {
+		6FA8B47B5D59A25DDEF5D290 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524668CD5DA7D707876A6824 /* Foundation.framework in Frameworks */,
+				A9039ABD94457B05EF5C810F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A72703BB178C11F489B4710 /* Frameworks */ = {
+		8D51DCDCB8A76C084ECB99C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A688478E815E579CDEF9946C /* Foundation.framework in Frameworks */,
+				1F7539E7B69D12D5A385A0E4 /* AudioToolbox.framework in Frameworks */,
+				5397B0AA4B50AB1CBA50D0F6 /* Foundation.framework in Frameworks */,
+				9698632151C33929A7D60889 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F11373368A377182BA6D3F0C /* Frameworks */ = {
+		C2C233908D9CBCC16E8346DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E5D4A9597C0292855D68CDD /* Foundation.framework in Frameworks */,
+				ECA3937A898B255DC32A5931 /* AudioToolbox.framework in Frameworks */,
+				B50AE0EA8D789764DE8DC864 /* Foundation.framework in Frameworks */,
+				2881C03ED8F8B0DC0BE760AA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F7C3E8285A577908E437CB6 /* iOS */ = {
+		1D84BBB6241DCC96FE7F78F0 /* Pods-RumbleStrip_Example */ = {
 			isa = PBXGroup;
 			children = (
-				A43E58170F4AECC681336629 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		32B2A2A2D81F5184A564A08D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				77B48D3E273EC80E6A4CADED /* Pods-RumbleStrip_Example */,
-				4D27D815A87C6AB6F3F2BCEC /* Pods-RumbleStrip_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4508F4109BCDA60204E82237 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E9D776A77C7E074733DF7E5F /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		4D27D815A87C6AB6F3F2BCEC /* Pods-RumbleStrip_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				52E3E70449CA6DBDB14546DD /* Info.plist */,
-				604448C1B9DF3FAE4041BFC8 /* Pods-RumbleStrip_Tests.modulemap */,
-				EB042728E746D22DBE82699A /* Pods-RumbleStrip_Tests-acknowledgements.markdown */,
-				AB8BEE106D9A664A3486B469 /* Pods-RumbleStrip_Tests-acknowledgements.plist */,
-				88E5EB36B6167DF44E6AB526 /* Pods-RumbleStrip_Tests-dummy.m */,
-				E686B4CF223202F96906235C /* Pods-RumbleStrip_Tests-environment.h */,
-				BCE56B967EC3E1C889EDADF6 /* Pods-RumbleStrip_Tests-frameworks.sh */,
-				5C9835A03D5695303D213713 /* Pods-RumbleStrip_Tests-resources.sh */,
-				234FABE387966CACB5C8F63B /* Pods-RumbleStrip_Tests-umbrella.h */,
-				232CB2570E8624FCE3B00A67 /* Pods-RumbleStrip_Tests.debug.xcconfig */,
-				0FB2A54DD5A51D989D17B6DD /* Pods-RumbleStrip_Tests.release.xcconfig */,
-			);
-			name = "Pods-RumbleStrip_Tests";
-			path = "Target Support Files/Pods-RumbleStrip_Tests";
-			sourceTree = "<group>";
-		};
-		4E8C911560DA244FDC29E543 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2F7C3E8285A577908E437CB6 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4F40AB719E7618770C838B09 = {
-			isa = PBXGroup;
-			children = (
-				5B11DF77721447518F157BC5 /* Podfile */,
-				CFA02F99171F5C17084B3D95 /* Development Pods */,
-				4E8C911560DA244FDC29E543 /* Frameworks */,
-				E7DDD570BB47BDDF526DA507 /* Products */,
-				32B2A2A2D81F5184A564A08D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		6710281FB64A9FE38150E7FE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5436306D02C49A147CC5E6CE /* Info.plist */,
-				D064DB1332942F7CE572CC6D /* Info.plist */,
-				B3AE96EA37202BEA1C65EFB5 /* Pods-RumbleStrip_Example-RumbleStrip.modulemap */,
-				65C37ADE4B3E3C9DAC6E78FA /* Pods-RumbleStrip_Example-RumbleStrip.xcconfig */,
-				3CEBE8F790518B5BE5DE7B90 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */,
-				79290CFE28B54831BF0DAF7D /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m */,
-				AEADCE47836A0616520FAF17 /* Pods-RumbleStrip_Example-RumbleStrip-prefix.pch */,
-				EC14DCF0179E3C9B6EC82273 /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h */,
-				A3B0BD9E067D549E1C6CF688 /* Pods-RumbleStrip_Tests-RumbleStrip.modulemap */,
-				F1FBC4FEF14472B7FBFA30F4 /* Pods-RumbleStrip_Tests-RumbleStrip.xcconfig */,
-				751CEF3E3B34135129E30770 /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */,
-				798A7E2DC187115D6F3599B8 /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m */,
-				5CAB774AA24C1EAA410ACB4C /* Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch */,
-				EA186B0B7A73F2B073F8456C /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-RumbleStrip_Example-RumbleStrip";
-			sourceTree = "<group>";
-		};
-		77B48D3E273EC80E6A4CADED /* Pods-RumbleStrip_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6C053DAF37BC68A9F3E21486 /* Info.plist */,
-				447103306D0C7E72F4A87E6E /* Pods-RumbleStrip_Example.modulemap */,
-				5DE50D581C5C4FEF89868F1F /* Pods-RumbleStrip_Example-acknowledgements.markdown */,
-				7B0650F8084F01F27F256021 /* Pods-RumbleStrip_Example-acknowledgements.plist */,
-				EF06454D22D77999B289962F /* Pods-RumbleStrip_Example-dummy.m */,
-				19335259210E408CBEFB1A83 /* Pods-RumbleStrip_Example-environment.h */,
-				5550A1EFA1B9BCC5DC46738D /* Pods-RumbleStrip_Example-frameworks.sh */,
-				5D521A1457E64569A1FBD423 /* Pods-RumbleStrip_Example-resources.sh */,
-				470ED5963FB7DF456BEE8950 /* Pods-RumbleStrip_Example-umbrella.h */,
-				DE7D73C114281F03B10814B9 /* Pods-RumbleStrip_Example.debug.xcconfig */,
-				55941B47AB386FE2CD96CFC8 /* Pods-RumbleStrip_Example.release.xcconfig */,
+				C1F8AA691CF8B5F22EC5C07D /* Info.plist */,
+				3574364DE390FB8E138884CA /* Pods-RumbleStrip_Example.modulemap */,
+				7C2175C40EAD38D73C0DEBB2 /* Pods-RumbleStrip_Example-acknowledgements.markdown */,
+				862FB11F75BAC41114D4B4A3 /* Pods-RumbleStrip_Example-acknowledgements.plist */,
+				66464ACD0350224D1A43C8FD /* Pods-RumbleStrip_Example-dummy.m */,
+				4093983F526FD1338E3F49E1 /* Pods-RumbleStrip_Example-environment.h */,
+				6531D341D2E5D59E0BAC808E /* Pods-RumbleStrip_Example-frameworks.sh */,
+				673BD533FD00ACF194C42206 /* Pods-RumbleStrip_Example-resources.sh */,
+				534F77E4AD1CC05FCBE46F30 /* Pods-RumbleStrip_Example-umbrella.h */,
+				D0F16DBB0A3E58038161A6EE /* Pods-RumbleStrip_Example.debug.xcconfig */,
+				5115A30F4DE0E88B317274C2 /* Pods-RumbleStrip_Example.release.xcconfig */,
 			);
 			name = "Pods-RumbleStrip_Example";
 			path = "Target Support Files/Pods-RumbleStrip_Example";
 			sourceTree = "<group>";
 		};
-		B39FC9578585B05D1DC7DB43 /* RumbleStrip */ = {
+		516CFAC798C770BFFBFCCB21 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4508F4109BCDA60204E82237 /* Pod */,
-				6710281FB64A9FE38150E7FE /* Support Files */,
+				1D84BBB6241DCC96FE7F78F0 /* Pods-RumbleStrip_Example */,
+				D6754A3F270711F28544C2F2 /* Pods-RumbleStrip_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58581FA82429AB015281D9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB284165EA054D5E59D73F /* Pods_RumbleStrip_Example.framework */,
+				D55F4E195AA5F99F4EF09632 /* Pods_RumbleStrip_Tests.framework */,
+				01562E598CD182B7E81B1690 /* RumbleStrip.bundle */,
+				65257DE23E24BF2FF798CFE5 /* RumbleStrip.bundle */,
+				50332BBB60280D5756F588E4 /* RumbleStrip.framework */,
+				3A472DA8E8AE6C91D8E309FD /* RumbleStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		686B43281A1374E7CADF715A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9ED30C5E81605991D7B9D316 /* AudioToolbox.framework */,
+				7C945677B99965900D73A8A5 /* Foundation.framework */,
+				D018F9E352639C71082309D5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		986330DCB655F401F5FCD3B6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0EAA3132355A8F7824C1E54 /* RumbleStrip */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A0EAA3132355A8F7824C1E54 /* RumbleStrip */ = {
+			isa = PBXGroup;
+			children = (
+				C5224C2CD5E9A313B6A7937D /* Pod */,
+				FEB75469F5C7B45A2628061F /* Support Files */,
 			);
 			name = RumbleStrip;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CFA02F99171F5C17084B3D95 /* Development Pods */ = {
+		A9650653B3F639DA41AFBAE4 = {
 			isa = PBXGroup;
 			children = (
-				B39FC9578585B05D1DC7DB43 /* RumbleStrip */,
+				15F4DD8BAAC9A27FD7ACDD50 /* Podfile */,
+				986330DCB655F401F5FCD3B6 /* Development Pods */,
+				D8ED7C56AA46B6FA5897F2CC /* Frameworks */,
+				58581FA82429AB015281D9FD /* Products */,
+				516CFAC798C770BFFBFCCB21 /* Targets Support Files */,
 			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E7DDD570BB47BDDF526DA507 /* Products */ = {
+		C5224C2CD5E9A313B6A7937D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CCA7272D3C035F70E0B1A926 /* Pods_RumbleStrip_Example.framework */,
-				09A016D5800A084A6FF9AE17 /* Pods_RumbleStrip_Tests.framework */,
-				1F1652591803CBBA86F76973 /* RumbleStrip.bundle */,
-				945F5C45D9B42ECAFD4EDB99 /* RumbleStrip.bundle */,
-				7BEE507FEBF9DAD031078B3C /* RumbleStrip.framework */,
-				B0D587CC994ECC1AA34F6A49 /* RumbleStrip.framework */,
+				E91D60190CD8C5A90D6C1C86 /* Classes */,
 			);
-			name = Products;
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		E9D776A77C7E074733DF7E5F /* Classes */ = {
+		D6754A3F270711F28544C2F2 /* Pods-RumbleStrip_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F4442175B4E721A1EC363C63 /* ReplaceMe.m */,
+				A133B23887AE28522813A16D /* Info.plist */,
+				1E267FDA8AF975C8F62DA3BD /* Pods-RumbleStrip_Tests.modulemap */,
+				72B32B062F3850268F762E87 /* Pods-RumbleStrip_Tests-acknowledgements.markdown */,
+				CFE755E995AB86820B4F0DC3 /* Pods-RumbleStrip_Tests-acknowledgements.plist */,
+				FC826A358DEBC454495EDF8E /* Pods-RumbleStrip_Tests-dummy.m */,
+				F5522A2F0C19DF45CFA2B4E7 /* Pods-RumbleStrip_Tests-environment.h */,
+				DB3C09D457FA145F40F3F2BB /* Pods-RumbleStrip_Tests-frameworks.sh */,
+				63C74B1CDD14E7EFF7D210FA /* Pods-RumbleStrip_Tests-resources.sh */,
+				1B4EE5F1FF20493BBF5F9864 /* Pods-RumbleStrip_Tests-umbrella.h */,
+				FBD349E89609EBFDD442B0E7 /* Pods-RumbleStrip_Tests.debug.xcconfig */,
+				7D12BFCBD4B77B5FE860C038 /* Pods-RumbleStrip_Tests.release.xcconfig */,
+			);
+			name = "Pods-RumbleStrip_Tests";
+			path = "Target Support Files/Pods-RumbleStrip_Tests";
+			sourceTree = "<group>";
+		};
+		D8ED7C56AA46B6FA5897F2CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				686B43281A1374E7CADF715A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E91D60190CD8C5A90D6C1C86 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				312EB13F90EC664D9750FCF7 /* RumbleStrip.h */,
+				EE396675B682490E52006ED9 /* RumbleStrip.m */,
+				9A723D7014FDC657CD2F9F1D /* UIWindow+Rumble.h */,
+				0B373CEA023692F4E14C486A /* UIWindow+Rumble.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		FEB75469F5C7B45A2628061F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EED8FD6122650DADDB7807BE /* Info.plist */,
+				3BF24C11337397456FEFFE38 /* Info.plist */,
+				7525D573D7BAA5E320525DB9 /* Pods-RumbleStrip_Example-RumbleStrip.modulemap */,
+				F67F430D4F1CCEDB213A1C45 /* Pods-RumbleStrip_Example-RumbleStrip.xcconfig */,
+				F5E65D39416696BBA5292974 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */,
+				05CDD36F7BB6152E3BB3D85D /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m */,
+				D22DB945A4DF3D93C40AD191 /* Pods-RumbleStrip_Example-RumbleStrip-prefix.pch */,
+				6638541FA3F84E79D2CDF33A /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h */,
+				EBF7EC6E4F25AA156DA9AF38 /* Pods-RumbleStrip_Tests-RumbleStrip.modulemap */,
+				B293B817A5A0D1C4DB258A37 /* Pods-RumbleStrip_Tests-RumbleStrip.xcconfig */,
+				24E5B39A16FC538974849C3A /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */,
+				50A64F5D4D7A0512A3B3E4D4 /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m */,
+				11BF9B5655C5A6B446833FB7 /* Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch */,
+				80D109B9A01C6CA6DA41B216 /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-RumbleStrip_Example-RumbleStrip";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		45363F258CF65B07C7762A6F /* Headers */ = {
+		2E677F00E942C03A29815466 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A0133042CC7CF0E3DB2AB7 /* Pods-RumbleStrip_Tests-umbrella.h in Headers */,
+				0B4B330CE2C76E52C0FBD099 /* Pods-RumbleStrip_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A68BB96A03C4EE6F16175CFC /* Headers */ = {
+		392F48CBC6147A5D61EC34F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A94BE84AA665CFA671B37C5 /* Pods-RumbleStrip_Example-umbrella.h in Headers */,
+				669CBEBA9E553B92FDCA2888 /* Pods-RumbleStrip_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0F58DD4505FAD3A7C2F63EE /* Headers */ = {
+		6B57B867505D7396065B69D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E123DF7D53CCF99B115FF6A /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h in Headers */,
+				33FD7944CA33F49EB721405A /* Pods-RumbleStrip_Example-RumbleStrip-umbrella.h in Headers */,
+				54089B449DE45BCD7F54B278 /* RumbleStrip.h in Headers */,
+				5878BD3E23DB2731806ABD64 /* UIWindow+Rumble.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC80589B55915490773A358A /* Headers */ = {
+		820FF575D1ABE3FD9E5DA5F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4C05F34226EB75841D9767 /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h in Headers */,
+				DDFF68AF32DEAE414243CC3F /* Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h in Headers */,
+				628F94AB49AAE88344159D26 /* RumbleStrip.h in Headers */,
+				DD49A96AAEB77E1226E6E664 /* UIWindow+Rumble.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50B3A5BEE72E53A35A4FB071 /* Pods-RumbleStrip_Example */ = {
+		38F1E54CBA49624BC5B16B23 /* Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16477A637EDCC84810CF6150 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example" */;
+			buildConfigurationList = A47306C95456FD871EEF8355 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip" */;
 			buildPhases = (
-				BB59BAEEB12700E141B0CE2E /* Sources */,
-				F11373368A377182BA6D3F0C /* Frameworks */,
-				A68BB96A03C4EE6F16175CFC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3803CD566C14329FFB798E55 /* PBXTargetDependency */,
-			);
-			name = "Pods-RumbleStrip_Example";
-			productName = "Pods-RumbleStrip_Example";
-			productReference = CCA7272D3C035F70E0B1A926 /* Pods_RumbleStrip_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5D83C7A4C7550C66344DACA5 /* Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0E41922E9AFBF6D06B506A9 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip" */;
-			buildPhases = (
-				1A1421EFBB6DD46DC6770EA8 /* Sources */,
-				31F6D32CD6220703E0329AFD /* Frameworks */,
-				EE44755C6A338B63B5964BE3 /* Resources */,
+				4CCCD6CAD528C35B553CD05A /* Sources */,
+				564FC006367AAF74F53C30E6 /* Frameworks */,
+				1255119BB584BFA5D157C263 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -367,53 +377,71 @@
 			);
 			name = "Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip";
 			productName = "Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip";
-			productReference = 1F1652591803CBBA86F76973 /* RumbleStrip.bundle */;
+			productReference = 01562E598CD182B7E81B1690 /* RumbleStrip.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		77D2DBDC03E937428F33C7B8 /* Pods-RumbleStrip_Tests */ = {
+		4D29CF0A3BD2615AC9552858 /* Pods-RumbleStrip_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9599E51022E1FFFDD4CB7973 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests" */;
+			buildConfigurationList = B60C215854AD300C54338C77 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests" */;
 			buildPhases = (
-				D3862A6A42105FD9375213C3 /* Sources */,
-				9A72703BB178C11F489B4710 /* Frameworks */,
-				45363F258CF65B07C7762A6F /* Headers */,
+				39BA6707BB625372EE5BB781 /* Sources */,
+				6FA8B47B5D59A25DDEF5D290 /* Frameworks */,
+				2E677F00E942C03A29815466 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5A6B089981575B53225935F5 /* PBXTargetDependency */,
+				00C4C6E721EDB6B65C6FD884 /* PBXTargetDependency */,
 			);
 			name = "Pods-RumbleStrip_Tests";
 			productName = "Pods-RumbleStrip_Tests";
-			productReference = 09A016D5800A084A6FF9AE17 /* Pods_RumbleStrip_Tests.framework */;
+			productReference = D55F4E195AA5F99F4EF09632 /* Pods_RumbleStrip_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B20BC47FB1A0E9BFABFE8856 /* Pods-RumbleStrip_Tests-RumbleStrip */ = {
+		58BF61154197AA7FDC69577C /* Pods-RumbleStrip_Example-RumbleStrip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDC84073C0706DCB734E5C77 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests-RumbleStrip" */;
+			buildConfigurationList = 9A6A00A586B8B65E02652300 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example-RumbleStrip" */;
 			buildPhases = (
-				6809FB8E1BC3DCBCB36E1F20 /* Sources */,
-				9A48414144B0FB2FEC30A04E /* Frameworks */,
-				4035EDD6FCD3A5A94EBE11CD /* Resources */,
-				FC80589B55915490773A358A /* Headers */,
+				ABCAAA38EAEC7A9AFDFEB0FE /* Sources */,
+				8D51DCDCB8A76C084ECB99C9 /* Frameworks */,
+				A443FFEC9C7EEB03620AD7BA /* Resources */,
+				6B57B867505D7396065B69D3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2A31CE7E987F69CACD2ACD43 /* PBXTargetDependency */,
+				EB8E88A6B0B20C603E30861B /* PBXTargetDependency */,
 			);
-			name = "Pods-RumbleStrip_Tests-RumbleStrip";
-			productName = "Pods-RumbleStrip_Tests-RumbleStrip";
-			productReference = 7BEE507FEBF9DAD031078B3C /* RumbleStrip.framework */;
+			name = "Pods-RumbleStrip_Example-RumbleStrip";
+			productName = "Pods-RumbleStrip_Example-RumbleStrip";
+			productReference = 3A472DA8E8AE6C91D8E309FD /* RumbleStrip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B8292E429E1F49D0BC11DF71 /* Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip */ = {
+		93D5954A9FB202AC4444F533 /* Pods-RumbleStrip_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FC3A0BD8C3A27D3FC33F72C /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip" */;
+			buildConfigurationList = FF1387E545048BAE0F5C62A3 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example" */;
 			buildPhases = (
-				D722BB18F4934FCC8885A131 /* Sources */,
-				87D67EE72CEEDF90AE566EEC /* Frameworks */,
-				AF928434FCC974348EC261EB /* Resources */,
+				09B79A4E35EA15B8C704F5EF /* Sources */,
+				3D44D81E4711602B3EC870BA /* Frameworks */,
+				392F48CBC6147A5D61EC34F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96AE40CD7D83F557292C8F82 /* PBXTargetDependency */,
+			);
+			name = "Pods-RumbleStrip_Example";
+			productName = "Pods-RumbleStrip_Example";
+			productReference = 3CCB284165EA054D5E59D73F /* Pods_RumbleStrip_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3360716AF19BA2316DE8F94 /* Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD44C000293E5145DD7F3D7 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip" */;
+			buildPhases = (
+				6A6D45C555CE718D979A6DFB /* Sources */,
+				43B238A9020F07B6E227B500 /* Frameworks */,
+				ABC2D9B858BD8B95007B4260 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -421,83 +449,83 @@
 			);
 			name = "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip";
 			productName = "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip";
-			productReference = 945F5C45D9B42ECAFD4EDB99 /* RumbleStrip.bundle */;
+			productReference = 65257DE23E24BF2FF798CFE5 /* RumbleStrip.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		F7513AE00E3835B47FEEAF49 /* Pods-RumbleStrip_Example-RumbleStrip */ = {
+		E382E9DCDE583EBEAEACA153 /* Pods-RumbleStrip_Tests-RumbleStrip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE5039B35FF0664DFAEF2CE5 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example-RumbleStrip" */;
+			buildConfigurationList = 960196966B59CE838C42BD91 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests-RumbleStrip" */;
 			buildPhases = (
-				94597D68E2DDCF2BB7FC7158 /* Sources */,
-				3BD374368F7484E84A4A44AE /* Frameworks */,
-				BC1F81A3ED88AF3538396D9C /* Resources */,
-				D0F58DD4505FAD3A7C2F63EE /* Headers */,
+				CB6334A3F9199256B159E48D /* Sources */,
+				C2C233908D9CBCC16E8346DA /* Frameworks */,
+				7A6C8FBA66DF43C4E910827B /* Resources */,
+				820FF575D1ABE3FD9E5DA5F0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B8A32E9FE7A60E7DFAFA0C2 /* PBXTargetDependency */,
+				253E9D551E6D0CEE976FE366 /* PBXTargetDependency */,
 			);
-			name = "Pods-RumbleStrip_Example-RumbleStrip";
-			productName = "Pods-RumbleStrip_Example-RumbleStrip";
-			productReference = B0D587CC994ECC1AA34F6A49 /* RumbleStrip.framework */;
+			name = "Pods-RumbleStrip_Tests-RumbleStrip";
+			productName = "Pods-RumbleStrip_Tests-RumbleStrip";
+			productReference = 50332BBB60280D5756F588E4 /* RumbleStrip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		44EF1E76BA15B2FDFC9823A1 /* Project object */ = {
+		4F3E24CE59EBC92710FBAE38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 43E08A6FB564C047B507D241 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 34DF96E3C1434EE9ED4929AA /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4F40AB719E7618770C838B09;
-			productRefGroup = E7DDD570BB47BDDF526DA507 /* Products */;
+			mainGroup = A9650653B3F639DA41AFBAE4;
+			productRefGroup = 58581FA82429AB015281D9FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50B3A5BEE72E53A35A4FB071 /* Pods-RumbleStrip_Example */,
-				F7513AE00E3835B47FEEAF49 /* Pods-RumbleStrip_Example-RumbleStrip */,
-				5D83C7A4C7550C66344DACA5 /* Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip */,
-				77D2DBDC03E937428F33C7B8 /* Pods-RumbleStrip_Tests */,
-				B20BC47FB1A0E9BFABFE8856 /* Pods-RumbleStrip_Tests-RumbleStrip */,
-				B8292E429E1F49D0BC11DF71 /* Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip */,
+				93D5954A9FB202AC4444F533 /* Pods-RumbleStrip_Example */,
+				58BF61154197AA7FDC69577C /* Pods-RumbleStrip_Example-RumbleStrip */,
+				38F1E54CBA49624BC5B16B23 /* Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip */,
+				4D29CF0A3BD2615AC9552858 /* Pods-RumbleStrip_Tests */,
+				E382E9DCDE583EBEAEACA153 /* Pods-RumbleStrip_Tests-RumbleStrip */,
+				C3360716AF19BA2316DE8F94 /* Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4035EDD6FCD3A5A94EBE11CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A005507C97673A1157FA3C47 /* RumbleStrip.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF928434FCC974348EC261EB /* Resources */ = {
+		1255119BB584BFA5D157C263 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC1F81A3ED88AF3538396D9C /* Resources */ = {
+		7A6C8FBA66DF43C4E910827B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DF0F76E448B4DB7E239D4F /* RumbleStrip.bundle in Resources */,
+				CA232080DBB019086CA41F2F /* RumbleStrip.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE44755C6A338B63B5964BE3 /* Resources */ = {
+		A443FFEC9C7EEB03620AD7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D080590172F9195B369C0378 /* RumbleStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC2D9B858BD8B95007B4260 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,85 +535,192 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A1421EFBB6DD46DC6770EA8 /* Sources */ = {
+		09B79A4E35EA15B8C704F5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37382FC3B87C8CC237A64954 /* Pods-RumbleStrip_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BA6707BB625372EE5BB781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24C406179B9811770849478 /* Pods-RumbleStrip_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCCD6CAD528C35B553CD05A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6809FB8E1BC3DCBCB36E1F20 /* Sources */ = {
+		6A6D45C555CE718D979A6DFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7783DC29A16664312F491AFA /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m in Sources */,
-				5381A099574B423CF5E5E447 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94597D68E2DDCF2BB7FC7158 /* Sources */ = {
+		ABCAAA38EAEC7A9AFDFEB0FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC8258FB2CE08997F7A4BAF /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m in Sources */,
-				E9C7D20CBDD854C234829235 /* ReplaceMe.m in Sources */,
+				9A04A3C6E7DDECF1957814BF /* Pods-RumbleStrip_Example-RumbleStrip-dummy.m in Sources */,
+				94B1B31AC04412206A7E5BAF /* RumbleStrip.m in Sources */,
+				FDC1D2A1288B6B0FAF9B1106 /* UIWindow+Rumble.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB59BAEEB12700E141B0CE2E /* Sources */ = {
+		CB6334A3F9199256B159E48D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4EBE1BBDD93787437725FE /* Pods-RumbleStrip_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3862A6A42105FD9375213C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DCACC6C1DB613EE82BF805C /* Pods-RumbleStrip_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D722BB18F4934FCC8885A131 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2BCDDE6ACD15E02B1A9D2E35 /* Pods-RumbleStrip_Tests-RumbleStrip-dummy.m in Sources */,
+				8627145C6EDD5C46F4F165C9 /* RumbleStrip.m in Sources */,
+				98A6AD5ED108682BA8C65EBE /* UIWindow+Rumble.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A31CE7E987F69CACD2ACD43 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip";
-			target = B8292E429E1F49D0BC11DF71 /* Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip */;
-			targetProxy = 6A2282DA377FFFE5BCB9761B /* PBXContainerItemProxy */;
-		};
-		3803CD566C14329FFB798E55 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RumbleStrip_Example-RumbleStrip";
-			target = F7513AE00E3835B47FEEAF49 /* Pods-RumbleStrip_Example-RumbleStrip */;
-			targetProxy = FCC8E39F39C26AFFD4DF96E6 /* PBXContainerItemProxy */;
-		};
-		5A6B089981575B53225935F5 /* PBXTargetDependency */ = {
+		00C4C6E721EDB6B65C6FD884 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RumbleStrip_Tests-RumbleStrip";
-			target = B20BC47FB1A0E9BFABFE8856 /* Pods-RumbleStrip_Tests-RumbleStrip */;
-			targetProxy = 47A0F549AAFF474AC5DC5DB0 /* PBXContainerItemProxy */;
+			target = E382E9DCDE583EBEAEACA153 /* Pods-RumbleStrip_Tests-RumbleStrip */;
+			targetProxy = D5EBE5C4C59E176845A85692 /* PBXContainerItemProxy */;
 		};
-		6B8A32E9FE7A60E7DFAFA0C2 /* PBXTargetDependency */ = {
+		253E9D551E6D0CEE976FE366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip";
+			target = C3360716AF19BA2316DE8F94 /* Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip */;
+			targetProxy = E5DEF88222B29CE754B75F05 /* PBXContainerItemProxy */;
+		};
+		96AE40CD7D83F557292C8F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RumbleStrip_Example-RumbleStrip";
+			target = 58BF61154197AA7FDC69577C /* Pods-RumbleStrip_Example-RumbleStrip */;
+			targetProxy = 096526EE2C39846BE8CEABA8 /* PBXContainerItemProxy */;
+		};
+		EB8E88A6B0B20C603E30861B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip";
-			target = 5D83C7A4C7550C66344DACA5 /* Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip */;
-			targetProxy = F737CE654F51DF6D504C060C /* PBXContainerItemProxy */;
+			target = 38F1E54CBA49624BC5B16B23 /* Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip */;
+			targetProxy = E9837203BAF04A263A2A6E32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		080F900914EFC3B91632D348 /* Debug */ = {
+		0F738A6BED70CCFAA5E8D8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E65D39416696BBA5292974 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RumbleStrip_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RumbleStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		116022616C7F0E11B6C782F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5115A30F4DE0E88B317274C2 /* Pods-RumbleStrip_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Example/Pods-RumbleStrip_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RumbleStrip_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23282851A921A47C173A0AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D12BFCBD4B77B5FE860C038 /* Pods-RumbleStrip_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Tests/Pods-RumbleStrip_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RumbleStrip_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		409A422B38B03CD25BF8C26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BFA1600FF975FF11365B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -617,16 +752,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		0898371852E7CEE2B14074FA /* Release */ = {
+		41BDB6937037C8B47D0277AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB2A54DD5A51D989D17B6DD /* Pods-RumbleStrip_Tests.release.xcconfig */;
+			baseConfigurationReference = 24E5B39A16FC538974849C3A /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -635,108 +770,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Tests/Pods-RumbleStrip_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_RumbleStrip_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		15543106B153B43495741EA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2A01E29570D25990AB57ED6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55941B47AB386FE2CD96CFC8 /* Pods-RumbleStrip_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Example/Pods-RumbleStrip_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_RumbleStrip_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4E193593F0E7FC3032EAA308 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE7D73C114281F03B10814B9 /* Pods-RumbleStrip_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Example/Pods-RumbleStrip_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_RumbleStrip_Example;
+				PRODUCT_NAME = RumbleStrip;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -745,9 +786,9 @@
 			};
 			name = Debug;
 		};
-		4EBB7FA486363630D96C0359 /* Debug */ = {
+		4284EA6706433880897BC90D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CEBE8F790518B5BE5DE7B90 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */;
+			baseConfigurationReference = F5E65D39416696BBA5292974 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RumbleStrip_Example";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -756,11 +797,24 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
+			name = Release;
+		};
+		659F1D15DBE454B6462654C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E5B39A16FC538974849C3A /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RumbleStrip_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RumbleStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
 			name = Debug;
 		};
-		70A5D92B65B440B9C813CFDB /* Debug */ = {
+		7A420D80B9724952CDAD59DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CEBE8F790518B5BE5DE7B90 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */;
+			baseConfigurationReference = F5E65D39416696BBA5292974 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -772,7 +826,34 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Pods-RumbleStrip_Example-RumbleStrip-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Pods-RumbleStrip_Example-RumbleStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RumbleStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C91E7EE4AA2B1C35FC858ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E65D39416696BBA5292974 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Pods-RumbleStrip_Example-RumbleStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Pods-RumbleStrip_Example-RumbleStrip.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -785,9 +866,49 @@
 			};
 			name = Debug;
 		};
-		70C0901BAD0B80F311643C73 /* Debug */ = {
+		943C60A3FB1B5DD0034101E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 232CB2570E8624FCE3B00A67 /* Pods-RumbleStrip_Tests.debug.xcconfig */;
+			baseConfigurationReference = 24E5B39A16FC538974849C3A /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RumbleStrip_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RumbleStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A801D17065189F5403958243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E5B39A16FC538974849C3A /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RumbleStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42C1E6398A62C329584BA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD349E89609EBFDD442B0E7 /* Pods-RumbleStrip_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -798,7 +919,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Tests/Pods-RumbleStrip_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -814,48 +935,9 @@
 			};
 			name = Debug;
 		};
-		7A945743B85121E65810E44B /* Release */ = {
+		C7D4AA40BFDB09C6E84DBEFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CEBE8F790518B5BE5DE7B90 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RumbleStrip_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = RumbleStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		9163775CA2F31C244C99FF2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 751CEF3E3B34135129E30770 /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RumbleStrip_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = RumbleStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		9DB376AD90EDD3B2F5A3643D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 751CEF3E3B34135129E30770 /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RumbleStrip_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = RumbleStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		B168779A46C6C80D12D4F56E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 751CEF3E3B34135129E30770 /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */;
+			baseConfigurationReference = D0F16DBB0A3E58038161A6EE /* Pods-RumbleStrip_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -864,14 +946,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Example/Pods-RumbleStrip_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RumbleStrip;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RumbleStrip_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -879,128 +963,74 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B6047B448B67A02112F747FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 751CEF3E3B34135129E30770 /* Pods-RumbleStrip_Tests-RumbleStrip-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Tests-RumbleStrip/Pods-RumbleStrip_Tests-RumbleStrip.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RumbleStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C2C31C2BB3C719853E109429 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CEBE8F790518B5BE5DE7B90 /* Pods-RumbleStrip_Example-RumbleStrip-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Pods-RumbleStrip_Example-RumbleStrip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-RumbleStrip_Example-RumbleStrip/Pods-RumbleStrip_Example-RumbleStrip.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RumbleStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FC3A0BD8C3A27D3FC33F72C /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip" */ = {
+		34DF96E3C1434EE9ED4929AA /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DB376AD90EDD3B2F5A3643D /* Debug */,
-				9163775CA2F31C244C99FF2A /* Release */,
+				40BFA1600FF975FF11365B66 /* Debug */,
+				409A422B38B03CD25BF8C26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16477A637EDCC84810CF6150 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example" */ = {
+		960196966B59CE838C42BD91 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests-RumbleStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E193593F0E7FC3032EAA308 /* Debug */,
-				2A01E29570D25990AB57ED6E /* Release */,
+				41BDB6937037C8B47D0277AD /* Debug */,
+				A801D17065189F5403958243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43E08A6FB564C047B507D241 /* Build configuration list for PBXProject "Pods" */ = {
+		9A6A00A586B8B65E02652300 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example-RumbleStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				080F900914EFC3B91632D348 /* Debug */,
-				15543106B153B43495741EA0 /* Release */,
+				7C91E7EE4AA2B1C35FC858ED /* Debug */,
+				7A420D80B9724952CDAD59DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9599E51022E1FFFDD4CB7973 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests" */ = {
+		A47306C95456FD871EEF8355 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70C0901BAD0B80F311643C73 /* Debug */,
-				0898371852E7CEE2B14074FA /* Release */,
+				0F738A6BED70CCFAA5E8D8F5 /* Debug */,
+				4284EA6706433880897BC90D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0E41922E9AFBF6D06B506A9 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example-RumbleStrip-RumbleStrip" */ = {
+		B60C215854AD300C54338C77 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EBB7FA486363630D96C0359 /* Debug */,
-				7A945743B85121E65810E44B /* Release */,
+				B42C1E6398A62C329584BA08 /* Debug */,
+				23282851A921A47C173A0AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDC84073C0706DCB734E5C77 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests-RumbleStrip" */ = {
+		EDD44C000293E5145DD7F3D7 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B168779A46C6C80D12D4F56E /* Debug */,
-				B6047B448B67A02112F747FA /* Release */,
+				659F1D15DBE454B6462654C2 /* Debug */,
+				943C60A3FB1B5DD0034101E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE5039B35FF0664DFAEF2CE5 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example-RumbleStrip" */ = {
+		FF1387E545048BAE0F5C62A3 /* Build configuration list for PBXNativeTarget "Pods-RumbleStrip_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70A5D92B65B440B9C813CFDB /* Debug */,
-				C2C31C2BB3C719853E109429 /* Release */,
+				C7D4AA40BFDB09C6E84DBEFD /* Debug */,
+				116022616C7F0E11B6C782F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 44EF1E76BA15B2FDFC9823A1 /* Project object */;
+	rootObject = 4F3E24CE59EBC92710FBAE38 /* Project object */;
 }
