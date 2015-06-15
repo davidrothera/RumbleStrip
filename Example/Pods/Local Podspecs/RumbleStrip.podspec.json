@@ -25,6 +25,7 @@
   },
   "frameworks": [
     "UIKit",
-    "AudioToolbox"
+    "AudioToolbox",
+    "MessageUI"
   ]
 }

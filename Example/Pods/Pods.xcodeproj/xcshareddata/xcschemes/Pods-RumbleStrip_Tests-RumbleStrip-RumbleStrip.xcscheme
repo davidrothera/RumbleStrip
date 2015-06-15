@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3360716AF19BA2316DE8F94"
+               BlueprintIdentifier = "1C2273507B101A4F576C0362"
                BuildableName = "RumbleStrip.bundle"
                BlueprintName = "Pods-RumbleStrip_Tests-RumbleStrip-RumbleStrip"
                ReferencedContainer = "container:Pods.xcodeproj">
