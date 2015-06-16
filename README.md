@@ -24,6 +24,12 @@ Once you have the pod installed, usage is very simple:
        return YES;
    }
    ```
+   
+Once you have RumbleStrip installed and enabled you can "shake" to device to initiate RumbleStrip.
+
+At present it will show a dialog to the user asking if they would like to provide feedback, if they say yes they will be directed to an e-mail template with a screenshot and other diagnostic information attached.
+
+## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 

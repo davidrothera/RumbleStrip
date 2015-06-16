@@ -60,8 +60,17 @@
                                                    [self giveFeedback];
                                                }];
     UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleCancel handler:nil];
+
     [alertController addAction:ok];
     [alertController addAction:cancel];
+    
+    UIPopoverPresentationController *popover = alertController.popoverPresentationController;
+    [popover setSourceView:rootController.view];
+    CGPoint center = rootController.view.center;
+    CGRect rect = CGRectMake(center.x, center.y, 0, 0);
+    [popover setSourceRect:rect];
+    popover.permittedArrowDirections = 0;
+    
     [rootController presentViewController:alertController animated:YES completion:nil];
 }
 
