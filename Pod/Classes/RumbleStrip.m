@@ -21,10 +21,12 @@
 
 #pragma mark - Singleton
 + (instancetype)enableRumble {
-    static id rumbleStrip;
+    static RumbleStrip *rumbleStrip;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         rumbleStrip = [[self alloc] init];
+        rumbleStrip.subject = @"Feedback";
+        rumbleStrip.recipients = @[];
     });
     return rumbleStrip;
 }
@@ -63,14 +65,14 @@
 
     [alertController addAction:ok];
     [alertController addAction:cancel];
-    
+
     UIPopoverPresentationController *popover = alertController.popoverPresentationController;
     [popover setSourceView:rootController.view];
     CGPoint center = rootController.view.center;
     CGRect rect = CGRectMake(center.x, center.y, 0, 0);
     [popover setSourceRect:rect];
     popover.permittedArrowDirections = 0;
-    
+
     [rootController presentViewController:alertController animated:YES completion:nil];
 }
 
@@ -97,8 +99,8 @@
     MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
     UIViewController *rootController = [[[UIApplication sharedApplication] keyWindow] rootViewController];
 
-    [mailController setSubject:@"Sugar Fix - iOS Feedback"];
-    [mailController setToRecipients:@[ @"feedback@sugar-fix.co.uk" ]];
+    [mailController setSubject:self.subject];
+    [mailController setToRecipients:self.recipients];
     [mailController setMailComposeDelegate:self];
     [mailController setMessageBody:[self getDeviceInfo] isHTML:NO];
     [mailController addAttachmentData:screenshot mimeType:@"image/png" fileName:@"screenshot.png"];

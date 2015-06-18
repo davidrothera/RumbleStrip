@@ -13,7 +13,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [RumbleStrip enableRumble];
+    RumbleStrip *strip = [RumbleStrip enableRumble];
+    [strip setSubject:@"Rumble Strip - Test feedback"];
+    [strip setRecipients:@[ @"test@email.com" ]];
 
     return YES;
 }

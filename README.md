@@ -7,6 +7,10 @@
 
 RumbleStrip is a lightweight feedback tool which allows your users to 'Rage Shake' to give feedback.
 
+<p align="center">
+  <img src="http://i.imgur.com/If9AWZn.gif"/>
+</p>
+
 ## Usage
 
 Once you have the pod installed, usage is very simple:
@@ -21,6 +25,11 @@ Once you have the pod installed, usage is very simple:
    ```obj-c
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
        [RumbleStrip enableRumble];
+       // or
+       RumbleStrip *feedback = [RumbleStrip enableRumble];
+       [feedback setSubject:@"Test Subject"];
+       [feedback setRecipients:@[ @"test@email.com" ];
+       
        return YES;
    }
    ```

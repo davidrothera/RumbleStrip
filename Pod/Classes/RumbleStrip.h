@@ -15,5 +15,10 @@
 @interface RumbleStrip : NSObject <MFMailComposeViewControllerDelegate>
 
 + (instancetype)enableRumble;
+- (void)setRecipients:(NSArray *)recipients;
+- (void)setSubject:(NSString *)subject;
+
+@property (strong, atomic) NSArray *recipients;
+@property (strong, atomic) NSString *subject;
 
 @end
