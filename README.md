@@ -7,7 +7,7 @@
 
 RumbleStrip is a lightweight feedback tool which allows your users to 'Rage Shake' to give feedback.
 
-<iframe class="imgur-embed" width="100%" height="714" frameborder="0" src="http://i.imgur.com/sqo62Tq.gifv#embed"></iframe>
+![Example](http://sugar-fix.co.uk/rumblestrip.gif)
 
 ## Usage
 
