@@ -51,29 +51,38 @@
 
 - (void)handleShake {
     AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+    self.screenshot = [self takeScreenshot];
     UIViewController *rootController = [[[UIApplication sharedApplication] keyWindow] rootViewController];
+    if ([UIAlertController class]) {
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Would you like to give feedback?"
+                                                                                 message:nil
+                                                                          preferredStyle:UIAlertControllerStyleActionSheet];
+        UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Yes"
+                                                     style:UIAlertActionStyleDefault
+                                                   handler:^(UIAlertAction *action) {
+                                                       [self giveFeedback];
+                                                   }];
+        UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleCancel handler:nil];
 
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Would you like to give feedback?"
-                                                                             message:nil
-                                                                      preferredStyle:UIAlertControllerStyleActionSheet];
-    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Yes"
-                                                 style:UIAlertActionStyleDefault
-                                               handler:^(UIAlertAction *action) {
-                                                   [self giveFeedback];
-                                               }];
-    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleCancel handler:nil];
+        [alertController addAction:ok];
+        [alertController addAction:cancel];
 
-    [alertController addAction:ok];
-    [alertController addAction:cancel];
+        UIPopoverPresentationController *popover = alertController.popoverPresentationController;
+        [popover setSourceView:rootController.view];
+        CGPoint center = rootController.view.center;
+        CGRect rect = CGRectMake(center.x, center.y, 0, 0);
+        [popover setSourceRect:rect];
+        popover.permittedArrowDirections = 0;
 
-    UIPopoverPresentationController *popover = alertController.popoverPresentationController;
-    [popover setSourceView:rootController.view];
-    CGPoint center = rootController.view.center;
-    CGRect rect = CGRectMake(center.x, center.y, 0, 0);
-    [popover setSourceRect:rect];
-    popover.permittedArrowDirections = 0;
-
-    [rootController presentViewController:alertController animated:YES completion:nil];
+        [rootController presentViewController:alertController animated:YES completion:nil];
+    } else {
+        UIActionSheet *action = [[UIActionSheet alloc] initWithTitle:@"Would you like to give feedback?"
+                                                            delegate:self
+                                                   cancelButtonTitle:@"No"
+                                              destructiveButtonTitle:nil
+                                                   otherButtonTitles:@"Yes", nil];
+        [action showInView:rootController.view];
+    }
 }
 
 - (NSData *)takeScreenshot {
@@ -89,8 +98,26 @@
     return data;
 }
 
+- (NSData *)takeScreenshot7 {
+    UIScreen *screen = [UIScreen mainScreen];
+    UIWindow *keyWindow = nil;
+    for (UIWindow *window in [[UIApplication sharedApplication] windows]) {
+        if (window.windowLevel == UIWindowLevelNormal) {
+            NSLog(@"test");
+            keyWindow = window;
+        }
+    }
+    
+    UIGraphicsBeginImageContextWithOptions(screen.bounds.size, NO, 0);
+    [keyWindow drawViewHierarchyInRect:keyWindow.bounds afterScreenUpdates:YES];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    NSData *data = UIImagePNGRepresentation(image);
+    
+    return data;
+}
+
 - (void)giveFeedback {
-    NSData *screenshot = [self takeScreenshot];
     if ([MFMailComposeViewController canSendMail] == NO) {
         NSLog(@"Uh oh!");
         return;
@@ -103,7 +130,29 @@
     [mailController setToRecipients:self.recipients];
     [mailController setMailComposeDelegate:self];
     [mailController setMessageBody:[self getDeviceInfo] isHTML:NO];
-    [mailController addAttachmentData:screenshot mimeType:@"image/png" fileName:@"screenshot.png"];
+    [mailController addAttachmentData:self.screenshot mimeType:@"image/png" fileName:@"screenshot.png"];
+    [rootController presentViewController:mailController animated:YES completion:nil];
+}
+
+- (void)giveFeedback7 {
+    if ([MFMailComposeViewController canSendMail] == NO) {
+        NSLog(@"Uh oh!");
+        return;
+    }
+    
+    MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
+    UIViewController *rootController = [[[UIApplication sharedApplication] keyWindow] rootViewController];
+    for (UIWindow *window in [[UIApplication sharedApplication] windows]) {
+        if (window.windowLevel == UIWindowLevelNormal) {
+            rootController = window.rootViewController;
+        }
+    }
+    
+    [mailController setSubject:self.subject];
+    [mailController setToRecipients:self.recipients];
+    [mailController setMailComposeDelegate:self];
+    [mailController setMessageBody:[self getDeviceInfo] isHTML:NO];
+    [mailController addAttachmentData:self.screenshot mimeType:@"image/png" fileName:@"screenshot.png"];
     [rootController presentViewController:mailController animated:YES completion:nil];
 }
 
@@ -135,6 +184,14 @@
         NSLog(@"The mail wasn't sent");
     }
     [controller dismissViewControllerAnimated:YES completion:nil];
+}
+
+#pragma mark - UIActionSheet delegate methods
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+        // this means the "Yes" button has been touched
+        [self giveFeedback7];
+    }
 }
 
 @end

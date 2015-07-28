@@ -12,7 +12,7 @@
 
 #import "UIWindow+Rumble.h"
 
-@interface RumbleStrip : NSObject <MFMailComposeViewControllerDelegate>
+@interface RumbleStrip : NSObject <MFMailComposeViewControllerDelegate, UIActionSheetDelegate>
 
 + (instancetype)enableRumble;
 - (void)setRecipients:(NSArray *)recipients;
@@ -20,5 +20,6 @@
 
 @property (strong, atomic) NSArray *recipients;
 @property (strong, atomic) NSString *subject;
+@property (strong, atomic) NSData *screenshot;
 
 @end
