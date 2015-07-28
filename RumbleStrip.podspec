@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RumbleStrip"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "A simple feedback library for iOS apps."
   s.description      = <<-DESC
                        # RumbleStrip
