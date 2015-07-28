@@ -2,4 +2,3 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "Pods-RumbleStrip_Tests-environment.h"

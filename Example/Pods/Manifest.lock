@@ -1,14 +1,14 @@
 PODS:
-  - RumbleStrip (0.1.2)
+  - RumbleStrip (0.1.3)
 
 DEPENDENCIES:
   - RumbleStrip (from `../`)
 
 EXTERNAL SOURCES:
   RumbleStrip:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  RumbleStrip: fbf32e299b71edf7838b42ffc0922478fdd9b462
+  RumbleStrip: 11541a074017923fa216eef5c2991d8372070f3e
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

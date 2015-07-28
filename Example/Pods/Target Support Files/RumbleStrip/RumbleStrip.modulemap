@@ -1,5 +1,5 @@
 framework module RumbleStrip {
-  umbrella header "Pods-RumbleStrip_Tests-RumbleStrip-umbrella.h"
+  umbrella header "RumbleStrip-umbrella.h"
 
   export *
   module * { export * }
