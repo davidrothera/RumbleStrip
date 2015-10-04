@@ -9,7 +9,7 @@ RumbleStrip is a lightweight feedback tool which allows your users to 'Rage Shak
 
 ![Example](http://sugar-fix.co.uk/rumblestrip.gif)
 
-## Usage
+## Usage (Objective-C)
 
 Once you have the pod installed, usage is very simple:
 
@@ -27,14 +27,37 @@ Once you have the pod installed, usage is very simple:
        RumbleStrip *feedback = [RumbleStrip enableRumble];
        [feedback setSubject:@"Test Subject"];
        [feedback setRecipients:@[ @"test@email.com" ];
-       
+
        return YES;
    }
    ```
-   
+
 Once you have RumbleStrip installed and enabled you can "shake" to device to initiate RumbleStrip.
 
 At present it will show a dialog to the user asking if they would like to provide feedback, if they say yes they will be directed to an e-mail template with a screenshot and other diagnostic information attached.
+
+## Usage (Swift)
+
+Once installed (either manually or with CocoaPods) using RumbleStrip is nice and easy:
+
+1.  Import RumbleStrip where you intend to initiate it (usually where your App Delegate function is)
+
+    ```swift
+    import RumbleStrip
+    ```
+
+2.  Enable RumbleStrip
+
+    ```swift
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+        // Enable RumbleStripe
+        let rumble = RumbleStrip.enableRumble()
+        rumble.recipients = ["help@yourapp.com"]
+        rumble.subject = "Feedback for your app"
+        // or
+        RumbleStrip.enableRumble()
+    }
+    ```
 
 ## Example
 
